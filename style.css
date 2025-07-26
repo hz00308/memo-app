@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+}
+
+.background {
+    background-color: #E3E7EB;
+}
+
+#container-init {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-init > h1 {
+    font-size: 70px;
+}
+
+#button-group-init {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.button-init {
+    display: flex;
+    height: 90px;
+    width: 170px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #4D6A80;
+    border-radius: 8px;
+    background-color: #EFF3F6;
+    font-size: 35px;
+    font-weight: bold;
+    color: #4D6A80;
+    text-decoration: none;
+}
+
+#container-create, #container-update {
+    min-height: 100vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: auto;
+}
+
+.input-title {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+label {
+    font-size: 25px;
+    font-weight: bold;
+    color: #4D6A80;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    border: 1px solid #4D6A80;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50vh;
+    font-size: 15px;
+    border: 1px solid #4D6A80;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.button-block {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.button-group {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.button-round {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #4D6A80;
+    border-radius: 25px;
+    background-color: #EFF3F6;
+    font-size: 10px;
+    color: #4D6A80;
+    text-decoration: none;
+}
+
+#container-read {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#memo-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    padding: 10px;
+    background-color: #E3E7EB;
+}
+
+.memo-item {
+    height: 200px;
+    border: 1px solid #4D6A80;
+    border-radius: 3px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+
+#container-detail {
+    min-height: 100vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: auto;
+}
+
+#memo-detail {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #4D6A80;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: white;
+    margin-top: 100px;
+}
+
+.detail-title {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.detail-body {
+    width: 100%;
+}
+
+#detail-button-block {
+    margin-bottom: 100px;
+}
+
+.button-group-detail {
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 10px;
+    margin-bottom: 100px;
+    gap: 5px;
+}
+
+#button-delete, #button-edit, #button-save, #button-update, #button-back {
+    border: 1px solid #4D6A80;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #EFF3F6;
+    font-size: 12px;
+    color: #4D6A80;
+}
+
+.small-logo {
+    position: fixed;
+    top: 29px;
+    left: 29px;
+    font-size: 32px;
+}
+
+.modak-regular {
+  font-family: "Modak", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #6C8EA4;
+}
+
+
+.quicksand-600 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+.noto-sans-kr-400 {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
